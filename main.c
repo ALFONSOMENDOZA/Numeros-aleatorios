@@ -5,7 +5,7 @@ void RellenarArreglo(int a[]);
 void ImprimirArreglo( int a[] );
 int Mayor( int a[] );
 int Menor( int a[] );
-
+void Ordenar(int a[]);
 int main(int argc, char *argv[]) {
 	int a[20];
 	int mayor;
@@ -70,4 +70,8 @@ int Menor( int a[] )
 		}
 	}	
 	return menor;	
+}
+
+void Ordenar(int a[]){
+	//ordenar el arreglo
 }
